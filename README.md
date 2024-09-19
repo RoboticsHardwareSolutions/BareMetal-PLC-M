@@ -1,15 +1,15 @@
-# robocontroller-F7 multi-interface 
+# rcan-usb-hardware 
 
+## Documentation:
+[all documentation files](doc/pcb/)<br>
+[schematic](<doc/pcb/Schematic Prints.PDF>)<br>
+[assembly drawings](<doc/pcb/Assembly Drawings.PDF>)<br>
+[board options](doc/pcb/board_options.txt)
 
-
-[schematic](doc/pcb/schematic.pdf)
-
-![main view ](doc/photo/top.png)
-
-![main view ](doc/photo/bot.png)
-
-![pinout ](doc/pinout/pinout.png)
-
+## Pinout and pcb image
+![pinout](doc/pinout/pinout.png)<br>
+![top](doc/photo/top.png)<br>
+![top](doc/photo/bot.png)
 
 
 
