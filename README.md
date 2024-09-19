@@ -1,4 +1,4 @@
-# rcan-usb-hardware 
+# BareMetal PLC M 
 
 ## Documentation:
 [all documentation files](doc/pcb/)<br>
