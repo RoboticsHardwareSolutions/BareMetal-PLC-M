@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\Sergey\Desktop\comitas\BareMetal-PLC-M\doc\pcb\Pick Place for pcb.csv
+\\Mac\Home\Yandex.Disk.localized\Development\Jobs\RHS\BareMetal-PLC-M\doc\pcb\Pick Place for pcb.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       14.11.24
-Time:       17:55
-Revision:   06b169dca410cf0a621cf4b600d7bf47a4640643
+Date:       12/12/24
+Time:       17:57
+Revision:   1aad133ca59da2254d354ab6525b2c641ac742af
 Variant:    No variations
 Units used: mm
 
@@ -31,7 +31,7 @@ Flash, USB, CAN, 11 timers, 3 ADCs, 13 communication interfaces"
 "C16","1uF 16V","TopLayer","C_0603","82.6000","-42.9500","180","Capacitor"
 "C27","100nF","TopLayer","C_0603","52.3000","-29.9750","90","Capacitor"
 "X2","TYPE-C-31-M-12","TopLayer","HRO_TYPE-C-31-M-12","90.9025","-48.7750","90","USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
-"U6","USBLC6-2SC6","TopLayer","SOT95P280X145-6N","84.7900","-48.7750","0","17V Clamp 5A (8/20Aµs) Ipp Tvs Diode Surface Mount SOT-23-6"
+"U6","USBLC6-2SC6","TopLayer","SOT95P280X145-6N","84.7900","-48.7750","0","17V Clamp 5A (8/20Âµs) Ipp Tvs Diode Surface Mount SOT-23-6"
 "R19","5.1k","TopLayer","R_0603","85.9500","-45.8750","270","Resistor"
 "R18","5.1k","TopLayer","R_0603","85.9500","-51.8750","90","Resistor"
 "C38","47uF 35V","TopLayer","TANTAL_TYPE_X","42.5500","-47.1750","90","Tantal Capacitor"
