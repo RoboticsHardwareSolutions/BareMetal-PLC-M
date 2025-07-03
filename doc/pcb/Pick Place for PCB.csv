@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-\\Mac\Home\Yandex.Disk.localized\Development\Jobs\RHS\BareMetal-PLC-M\doc\pcb\Pick Place for pcb.csv
+\\Mac\Home\projects\rhs\BareMetal-PLCs-Vault\BareMetal-PLC-M\doc\pcb\Pick Place for pcb.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       12/12/24
-Time:       17:57
-Revision:   1aad133ca59da2254d354ab6525b2c641ac742af
+Date:       03.07.25
+Time:       15:05
+Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mm
 
@@ -24,7 +24,7 @@ Flash, USB, CAN, 11 timers, 3 ADCs, 13 communication interfaces"
 "D7","Green","TopLayer","LED_1206","48.5750","-36.4750","270","Typical INFRARED GaAs LED"
 "D6","Yellow","TopLayer","LED_1206","45.8250","-36.4750","270","Typical INFRARED GaAs LED"
 "D8","Red","TopLayer","LED_1206","43.0500","-36.4750","270","Typical INFRARED GaAs LED"
-"XTAL2","X32258MOB4SI","TopLayer","NX3225GA","77.2750","-39.0500","0","Crystal Oscillator"
+"XTAL2","X322512MSB4SI","TopLayer","NX3225GA","77.2750","-39.0500","0","Crystal Oscillator"
 "R16","2.7k","TopLayer","R_0603","70.6750","-49.2750","0","Resistor"
 "R17","100k","TopLayer","R_0603","82.6250","-44.5000","180","Resistor"
 "C15","100nF","TopLayer","C_0603","82.6000","-41.4250","180","Capacitor"
@@ -102,20 +102,20 @@ Flash, USB, CAN, 11 timers, 3 ADCs, 13 communication interfaces"
 "R15","120","TopLayer","R_0603","83.2750","-14.3500","270","Resistor"
 "R13","10k","TopLayer","R_0603","82.8749","-20.9578","0","Resistor"
 "R14","10k","TopLayer","R_0603","82.8749","-25.6328","180","Resistor"
-"R30","3.3K","TopLayer","R_0603","21.3500","-53.0500","270","Resistor"
+"R30","3.3K","TopLayer","R_0805","21.3500","-53.0500","270","Resistor"
 "R55","1K","TopLayer","R_0603","32.3500","-54.5000","90","Resistor"
 "R40","680","TopLayer","R_0603","28.4000","-52.0500","180","Resistor"
-"R31","3.3K","TopLayer","R_0603","21.3500","-48.3500","270","Resistor"
+"R31","3.3K","TopLayer","R_0805","21.3500","-48.3500","270","Resistor"
 "R56","1K","TopLayer","R_0603","32.3500","-49.6875","270","Resistor"
 "R41","680","TopLayer","R_0603","28.3000","-47.3000","180","Resistor"
 "R65","100K","TopLayer","R_0603","37.0250","-43.7750","0","Resistor"
-"R32","3.3K","TopLayer","R_0603","21.3500","-43.6000","270","Resistor"
+"R32","3.3K","TopLayer","R_0805","21.3500","-43.6000","270","Resistor"
 "R57","1K","TopLayer","R_0603","32.3500","-44.8750","270","Resistor"
 "R42","680","TopLayer","R_0603","28.4000","-42.5500","180","Resistor"
-"R33","3.3K","TopLayer","R_0603","21.4500","-39.1500","270","Resistor"
+"R33","3.3K","TopLayer","R_0805","21.4500","-39.1500","270","Resistor"
 "R58","1K","TopLayer","R_0603","32.3500","-40.0625","270","Resistor"
 "R43","680","TopLayer","R_0603","28.4000","-37.6000","180","Resistor"
-"R34","3.3K","TopLayer","R_0603","21.4500","-35.4500","90","Resistor"
+"R34","3.3K","TopLayer","R_0805","21.4500","-35.4500","90","Resistor"
 "R59","1K","TopLayer","R_0603","32.3500","-35.2500","270","Resistor"
 "R44","680","TopLayer","R_0603","28.4000","-32.8000","180","Resistor"
 "R61","1K","TopLayer","R_0603","19.5000","-53.8500","90","Resistor"
