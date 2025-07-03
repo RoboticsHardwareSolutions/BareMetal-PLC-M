@@ -7,10 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout BareMetal-PLC-M
-        uses: actions/checkout@v4
-        with:
-          path: ${{ github.workspace }}
+      - name: List directory contents
+        run: |
+          echo "Содержимое /home/runner/work/BareMetal-PLC-M:"
+          ls -la /home/runner/work/BareMetal-PLC-M
+          echo "Содержимое /home/runner/work/BareMetal-PLC-M/BareMetal-PLC-M:"
+          ls -la ${{ github.workspace }}
 
       - name: Checkout repository
         uses: actions/checkout@v4
