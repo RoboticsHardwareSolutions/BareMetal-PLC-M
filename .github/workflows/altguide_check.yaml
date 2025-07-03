@@ -9,14 +9,13 @@ jobs:
 
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          path: project
 
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           repository: 'RoboticsHardwareSolutions/altguide'
           ref: 'main' 
+          path: altguide
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,9 +24,11 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd altguide
           python -m pip install --upgrade pip
           pip install -r utils/pcb_checker/requirements.txt
 
       - name: Run altguide script
         run: |
+          cd altguide
           python utils/pcb_checker/main.py "${{ github.workspace }}"
