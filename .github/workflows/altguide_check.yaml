@@ -15,7 +15,7 @@ jobs:
         with:
           repository: 'RoboticsHardwareSolutions/altguide'
           ref: 'main' 
-          path: altguide
+          path: '/utils/altguide'
 
       - name: Set up Python
         uses: actions/setup-python@v5
