@@ -7,15 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           repository: 'RoboticsHardwareSolutions/altguide'
           ref: 'main' 
-          path: '/utils/altguide'
+          fetch-depth: 1
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          path: 'layout'
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,4 +33,4 @@ jobs:
       - name: Run altguide script
         run: |
           cd altguide
-          python utils/pcb_checker/main.py "${{ github.workspace }}"
+          python utils/pcb_checker/main.py "${{ github.workspace }}/layout"
