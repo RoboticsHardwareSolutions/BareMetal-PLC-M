@@ -25,4 +25,4 @@ jobs:
 
       - name: Run altguide script
         run: |
-          python utils/pcb_checker/main.py --path "${{ github.workspace }}
+          python utils/pcb_checker/main.py --path "${{ github.workspace }}"
