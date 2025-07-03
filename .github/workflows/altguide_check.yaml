@@ -26,11 +26,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd altguide
           python -m pip install --upgrade pip
           pip install -r utils/pcb_checker/requirements.txt
 
       - name: Run altguide script
         run: |
-          cd altguide
           python utils/pcb_checker/main.py "${{ github.workspace }}/layout"
