@@ -6,15 +6,17 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-    
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          path: project
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           repository: 'RoboticsHardwareSolutions/altguide'
           ref: 'main' 
-
-      - name: Checkout repo
-        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
