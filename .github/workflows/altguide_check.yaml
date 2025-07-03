@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Checkout BareMetal-PLC-M
+        uses: actions/checkout@v4
+        with:
+          path: ${{ github.workspace }}
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
