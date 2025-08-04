@@ -14,10 +14,7 @@ jobs:
           ref: 'main' 
           fetch-depth: 1
           sparse-checkout: |
-            utils/
-            *.md
-            *.txt
-            *.py
+            utils
 
       - name: Remove altlib directory
         run: rm -rf altlib
