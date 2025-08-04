@@ -16,9 +16,6 @@ jobs:
           sparse-checkout: |
             utils
 
-      - name: Remove altlib directory
-        run: rm -rf altlib
-
       - name: Checkout target
         uses: actions/checkout@v4
         with:
