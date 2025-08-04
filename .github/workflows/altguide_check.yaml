@@ -24,12 +24,9 @@ jobs:
         with:
           path: 'target'
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-
       - name: Install dependencies
         run: |
-          python -m venv venv
+          python3 -m venv venv
           source venv/bin/activate
           python -m pip install --upgrade pip
           pip install -r utils/pcb_checker/requirements.txt
