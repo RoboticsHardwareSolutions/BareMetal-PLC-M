@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-Y:\projects\rhs\BareMetal-PLCs-Vault\BareMetal-PLC-M\doc\pcb\Pick Place for pcb.csv
+\\Mac\Home\Yandex.Disk.localized\Development\Jobs\RHS\rPLC\BareMetal-PLC-M\doc\pcb\Pick Place for pcb.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       29.01.26
-Time:       17:46
-Revision:   Not in VersionControl
+Date:       11/02/26
+Time:       23:26
+Revision:   12648622aa165358f983bbb4c68888d586e45b85
 Variant:    No variations
 Units used: mm
 
@@ -161,11 +161,11 @@ Flash, USB, CAN, 11 timers, 3 ADCs, 13 communication interfaces"
 "U18","TLP290","TopLayer","SO4_1.27","26.9250","-44.8850","0","4-Pin Phototransistor Optocoupler"
 "U19","TLP290","TopLayer","SO4_1.27","26.9250","-40.0150","0","4-Pin Phototransistor Optocoupler"
 "U20","TLP290","TopLayer","SO4_1.27","26.9250","-35.2150","0","4-Pin Phototransistor Optocoupler"
-"U22","CPC1008N","TopLayer","SO4_2_54","14.3940","-53.8700","180","4-Pin Phototransistor Optocoupler"
-"U23","CPC1008N","TopLayer","SO4_2_54","14.3940","-49.5075","180","4-Pin Phototransistor Optocoupler"
+"U22","CPC1008N","TopLayer","SO4_2_54","14.3940","-54.5300","180","4-Pin Phototransistor Optocoupler"
+"U23","CPC1008N","TopLayer","SO4_2_54","14.3940","-50.0219","180","4-Pin Phototransistor Optocoupler"
 "U11","VOM1271","TopLayer","SOP-4","25.9500","-29.4200","180","Photovoltaic MOSFET Driver"
-"U24","CPC1008N","TopLayer","SO4_2_54","14.3940","-45.1450","180","4-Pin Phototransistor Optocoupler"
-"U25","CPC1008N","TopLayer","SO4_2_54","14.3940","-40.7825","180","4-Pin Phototransistor Optocoupler"
+"U24","CPC1008N","TopLayer","SO4_2_54","14.3940","-45.4538","180","4-Pin Phototransistor Optocoupler"
+"U25","CPC1008N","TopLayer","SO4_2_54","14.3940","-40.9281","180","4-Pin Phototransistor Optocoupler"
 "U21","CPC1008N","TopLayer","SO4_2_54","14.3940","-36.4200","180","4-Pin Phototransistor Optocoupler"
 "U12","VOM1271","TopLayer","SOP-4","25.9500","-23.7825","180","Photovoltaic MOSFET Driver"
 "U13","VOM1271","TopLayer","SOP-4","25.9500","-18.1450","180","Photovoltaic MOSFET Driver"
